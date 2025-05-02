@@ -1512,7 +1512,7 @@ input, select, textarea {
 			box-shadow: inset 0px 0px 0px 1px #9aa6e5;
 		}
 
-.email-button {
+  .email-button {
 		background-image: -moz-linear-gradient(top, #2d256a, #1a1547);
 		background-image: -webkit-linear-gradient(top, #2d256a, #1a1547);
 		background-image: -ms-linear-gradient(top, #2d256a, #1a1547);
@@ -1530,7 +1530,7 @@ input, select, textarea {
 		box-shadow: inset 0px 0px 0px 1px #1a1547;
 	}
 
-	.email-button:hover {
+	  .email-button:hover {
 			background-image: -moz-linear-gradient(top, #9aa6e5, #495ddf);
 			background-image: -webkit-linear-gradient(top, #9aa6e5, #495ddf);
 			background-image: -ms-linear-gradient(top, #9aa6e5, #495ddf);
