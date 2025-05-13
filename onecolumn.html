@@ -42,8 +42,6 @@
 							<div class="col-12">
 
 								<!-- page comments -->
-	{{ if not (in (.Site.BaseURL | string) "localhost") }}
-
 		<div id="hashover"></div>
 
 		<!-- load asynchronous -->
@@ -52,7 +50,7 @@
 				var s = document.createElement('script'),
 				t = document.getElementsByTagName('script')[0];
 				s.type = 'text/javascript'; s.async = true;
-				s.src = src="http://cmd.my-domain-name.domain/hashover/comments.php";
+				s.src = src="hashover-1.0.2 (1)/hashover/comments.php";
 				t.parentNode.insertBefore(s, t); })();
 		</script>
 
